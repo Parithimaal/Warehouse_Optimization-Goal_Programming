@@ -1,0 +1,1 @@
+from .utility_funcs import dict_from_attribute
