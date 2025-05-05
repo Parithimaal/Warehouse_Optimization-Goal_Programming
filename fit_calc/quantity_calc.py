@@ -1,8 +1,8 @@
 import math
 
-def qty_base_layer_factory(*, dimensions, bins):
-    """\
-    Computes the number of parts of part p that will fit on the floor of the bin in 2 orientations
+def qty_base_layer_factory(*, dimensions, bins:dict):
+    """Compute the number of parts of part p
+    that will fit on the bin floor in two orientations.
     """
     def qty_base_layer(p, b):
         length_p, width_p = dimensions[p].length, dimensions[p].width
@@ -12,10 +12,8 @@ def qty_base_layer_factory(*, dimensions, bins):
         return max(fit_1, fit_2)
     return qty_base_layer
 
-def qty_max_factory(*, dimensions, bins, is_stackable_p_, qty_base_layer):
-    """\
-    Computes the max quantity of part p in bin b
-    """
+def qty_max_factory(*, dimensions, bins:dict, is_stackable_p_:dict, qty_base_layer:function):
+    """Compute the max quantity of part p in bin b."""
     def qty_max(p, b):
         base = qty_base_layer(p,b)
         if base == 0:

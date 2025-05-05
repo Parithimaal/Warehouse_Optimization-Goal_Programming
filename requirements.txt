@@ -1,0 +1,35 @@
+# packages in environment at C:\Users\balaj\anaconda3\envs\warehouse_optim:
+#
+# Name                    Version                   Build  Channel
+asttokens                 3.0.0              pyhd8ed1ab_1    conda-forge
+ca-certificates           2025.4.26            h4c7d964_0    conda-forge
+debugpy                   1.8.14          py313h5813708_0    conda-forge
+decorator                 5.2.1              pyhd8ed1ab_0    conda-forge
+et_xmlfile                2.0.0              pyhd8ed1ab_1    conda-forge
+exceptiongroup            1.2.2              pyhd8ed1ab_1    conda-forge
+executing                 2.2.0              pyhd8ed1ab_0    conda-forge
+importlib-metadata        8.6.1              pyha770c72_0    conda-forge
+intel-openmp              2024.2.1          h57928b3_1083    conda-forge
+ipykernel                 6.29.5             pyh4bbf305_0    conda-forge
+ipython_pygments_lexers   1.1.1              pyhd8ed1ab_0    conda-forge
+jedi                      0.19.2             pyhd8ed1ab_1    conda-forge
+jupyter_client            8.6.3              pyhd8ed1ab_1    conda-forge
+jupyter_core              5.7.2              pyh5737063_1    conda-forge
+libexpat                  2.7.0                he0c23c2_0    conda-forge
+libmpdec                  4.0.0                h2466b09_0    conda-forge
+libsqlite                 3.49.1               h67fdade_2    conda-forge
+libwinpthread             12.0.0.r4.gg4f2fc60ca      h57928b3_9    conda-forge
+matplotlib-inline         0.1.7              pyhd8ed1ab_1    conda-forge
+nest-asyncio              1.6.0              pyhd8ed1ab_1    conda-forge
+openpyxl                  3.1.5           py313he57e174_1    conda-forge
+openssl                   3.5.0                ha4e3fda_1    conda-forge
+pickleshare               0.7.5           pyhd8ed1ab_1004    conda-forge
+pure_eval                 0.2.3              pyhd8ed1ab_1    conda-forge
+pygments                  2.19.1             pyhd8ed1ab_0    conda-forge
+python-dateutil           2.9.0.post0        pyhff2d567_1    conda-forge
+setuptools                80.1.0             pyhff2d567_0    conda-forge
+traitlets                 5.14.3             pyhd8ed1ab_1    conda-forge
+typing_extensions         4.13.2             pyh29332c3_0    conda-forge
+vc14_runtime              14.42.34438         hfd919c2_26    conda-forge
+xlsxwriter                3.2.3              pyhd8ed1ab_0    conda-forge
+zeromq                    4.3.5                ha9f60a1_7    conda-forge
